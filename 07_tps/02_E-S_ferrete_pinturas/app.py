@@ -12,7 +12,7 @@ Enunciado:
         (0 °F − 32) × 5/9 = -17,78 °C
 
     B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en Fahrenheit 
-        (0 °C × 9/5) + 32 = 32 °F
+        (0 °C × 9/5) + 2 = 32 °F
 
     
 '''
