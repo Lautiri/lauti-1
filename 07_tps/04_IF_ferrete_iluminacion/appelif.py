@@ -43,45 +43,6 @@ class App(customtkinter.CTk):
         cantidad = int(cantidad_txt)
         precio = 800
         descuento = None
-#if else
-        #if cantidad >= 6: 
-            #descuento = 0.5 
-        #else:
-             #if cantidad == 5 :
-                 #if marca == "ArgentinaLuz" :
-                     #descuento = 0.4
-                 #else:
-                     #descuento = 0.3 
-             #else:
-                 #if cantidad == 4 :
-                     #if marca == "ArgentinaLuz" or marca == "FelipeLamparas" :
-                         #descuento = 0.25 
-                     #else:
-                         #descuento = 0.20
-                 #else:
-                     #if cantidad == 3 :
-                         #if marca == "ArgentinaLuz" :
-                             #descuento = 0.15
-                         #else:
-                             #if marca == "FelipeLamparas":
-                                 #descuento = 0.10 
-                             #else:
-                                 #descuento = 0.05
-                     #else:
-                         #descuento = 0
-                         
-
-        #precio_descuento = precio - (precio * descuento)
-        #precio_final = precio_descuento*cantidad
-        
-        #if precio_final >= 4000 :
-             #descuento_del_descuento = 0.05
-        #else:
-             #descuento_del_descuento = 0
-
-        #precio_con_descuento = precio_final -(precio_final* descuento_del_descuento)
-
-        #alert("usted tiene que pagar",f"Por favor pague esto,{precio_con_descuento}" )
 
         if cantidad >= 6: 
             descuento = 0.5 
